@@ -237,7 +237,7 @@ PSDM成像,请附加引用:
 - QSEIS波形模拟程序来自 Rongjiang Wang 教授课题组;   
 - PSDM相关程序来自于陈凌研究员课题组;   
 - sacsnr、sacStack、sacio等均来自 Lupei Zhu 教授课题组； 
-- 程序整理得到了 GIG Geophysics Lab - 724A 成员 ( 胡仲发、朱晟、黄润青、罗恒 ) 的帮助；
+- 程序整理得到了 GIG Geophysics Lab - 724A 胡仲发、朱晟、黄润青、罗恒的帮助；
 - 程序问题和解决方案部分得到了肖卓、韩如冰、苏文君柳、曾彦迪、闫晓东、寇华东等人的帮助.
 
 在此一并表示感谢.
