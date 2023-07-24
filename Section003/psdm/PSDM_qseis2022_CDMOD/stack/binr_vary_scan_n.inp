@@ -1,0 +1,36 @@
+* begin and end coordinate of start point, point interval(km): begla0,beglo0,endla0,endlo0,dsp
+-500.0,0.0,-500.0,0.0,100.0,
+* profile length and azimuth range and interval: xlenp,alphab,alphae,dalp
+1000.0,0.0,0.0,15.0
+* the spacing between bins, least number of traces, rnumtra, UTM_PROJECTION_ZONE(new)
+50 2 1.0 48
+* time file name: timefile
+../m660q/m660q_Scp.out
+* output file name: outfile
+2022_binr_out_Qseis_1s
+* ouput number of time samples in each trace: npt, dt
+1001     0.10
+* the indexes of reference ray among 1 -- nw: ninw, (inw0(i),i=1,ninw)   
+20,1 -400,2 120,3 120,4 120,5 120,6 120,7 120,8 120,9 120,10 120,11 120,12 120,13 120,14 120,15 120,16 120,17 120,18 120,19 120,20 120
+* minimum YBIN (km)
+15,20,25,30,30,32,32,34,34,36,36,38,38,40,40,42,44,46,48,50
+* DYBIN (km)
+-50,2,2,2,2,2,3,3,3,3,3,3,3,4,4,4,4,4,4,4
+* maximum YBIN (km)
+30,40,50,60,60,65,65,70,70,75,75,80,80,80,80,85,90,90,95,100
+* temporary directory name to store the intermedial files (.img)
+../temp
+* moveout index: idist, gcarc1  (only useful for idist=1)
+0  0.00
+* inorm
+1 
+* output number and depth indexes in ninw: noutd,(ioutd(i),i=1,noutd)
+5 6 13 16 19 36      40-, 100-, 150-, 210-, 300-km
+* output index for stacking: istack
+1 
+* output index for gcarc, baz and p: ioutb
+0
+* piercing point data file number: npief
+1
+* input file name: infile
+pierc_use.dat

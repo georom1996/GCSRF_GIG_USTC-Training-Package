@@ -1,0 +1,36 @@
+* velocity model file
+cwbq
+* ray file
+mray_cwbq.dat
+* output file
+m660q_cwbq_Pcs1.out
+* iflat, itype (= 0: free-surface refl.; else: conversion (>0: Ps; <0: Sp))
+1     1
+
+* velocity model file
+cwbq
+* ray file
+mray_cwbq.dat
+* output file
+m660q_cwbq_SS1.out
+* iflat, itype (= 0: free-surface refl.; else: conversion (>0: Ps; <0: Sp))
+1     0
+
+* velocity model file
+cwbq
+* ray file
+mray_cwbq.dat
+* output file
+m660q_cwbq_PS1.out
+* iflat, itype (= 0: free-surface refl.; else: conversion (>0: Ps; <0: Sp))
+1     0
+
+
+* velocity model file
+cwbq
+* ray file
+mray_cwbq.dat
+* output file
+m660q_cwbq_PP1.out
+* iflat, itype (= 0: free-surface refl.; else: conversion (>0: Ps; <0: Sp))
+1     0

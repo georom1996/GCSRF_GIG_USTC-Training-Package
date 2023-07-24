@@ -1,0 +1,26 @@
+* imethod (phshift=0; phscreen=1, hybscreen: else),irefvel,vscale 
+0 0 1.00
+* fmin, fmax (Minimum and maximum frequencies), ifreqindl, ifreqindr
+0.030000 0.500000 0 40
+* nxmod, nzmod, nx, nz
+21 1600 1024 1600
+* dx, dz
+50 0.5
+* ntrace, nt, dt (in sec.), nt0, ntb
+21 1001 0.1 2048 1
+* FD method (15, 45, 65)
+45
+* nxleft, nxright
+4 4
+* ifmat (=0: ascii vel. file; else: binary vel. file)
+0
+* modvelocity
+../model/iasp.joe
+* tx_data (input seismic data)
+../stack/stack_2022_binr_out_Qseis_1s.dat
+* migdata (output imaging data)
+QseisMig_0.03_0.5_hdpmig.joe.dat
+* intrace
+1
+* first trace index: itrfirst
+1

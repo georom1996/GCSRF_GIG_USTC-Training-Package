@@ -1,0 +1,8 @@
+* velocity model file
+../model/CDmod
+* ray file
+mray_joe.Sp.dat
+* output file
+m660q_Scp.out
+* iflat, itype (= 0: free-surface refl.; else: conversion (>0: Ps; <0: Sp))
+0     -1

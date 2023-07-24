@@ -1,0 +1,26 @@
+* imethod (phshift=0; phscreen=1, hybscreen: else),irefvel,vscale 
+0      0     1.0              
+* fmin, fmax (Minimum and maximum frequencies), ifreqindl, ifreqindr
+0.01   1.2   0   40                               
+* nxmod, nzmod, nx, nz
+351    800   1024    800
+* dx, dz
+2     0.5     
+* ntrace, nt, dt (in sec.), nt0, ntb
+351   1001    0.1    2048   1
+* FD method (15, 45, 65)
+45
+* nxleft, nxright
+40     40
+* ifmat (=0: ascii vel. file; else: binary vel. file)
+0    
+* modvelocity
+../model/cwbq
+* tx_data (input seismic data)
+../stack/stack_inw20cw_ispwnccaz90_yb15-100vnt2_xb200_dx2_norm0_nf2p5-s1_Pcs.dat
+* migdata (output imaging data)
+image_dx2dz05_inw20cw_ispwnccaz90_yb15-100vnt2_xb200_norm0_nf2p5-s1_Pcs_f0.01-1.20tl0r40_cwbq_nx351nz800.dat
+* intrace
+1
+* first trace index: itrfirst
+1

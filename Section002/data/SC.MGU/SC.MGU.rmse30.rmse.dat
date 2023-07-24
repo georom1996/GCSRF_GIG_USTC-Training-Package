@@ -1,0 +1,696 @@
+sac<<eof
+r Good.srf.l.2015.293.22.00.19.6000.SC.MGU.00.16-65.srf.rmse30
+ ch user1 0.019644
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2013.327.07.58.12.1000.SC.MGU.00.12-75.srf.rmse30
+ ch user1 0.019840
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.079.14.07.11.1000.SC.MGU.00.20-65.srf.rmse30
+ ch user1 0.020336
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.038.08.48.31.5000.SC.MGU.00.16-70.srf.rmse30
+ ch user1 0.021184
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.001.16.11.43.0000.SC.MGU.00.16-35.srf.rmse30
+ ch user1 0.021960
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.356.22.36.24.6000.SC.MGU.00.16-40.srf.rmse30
+ ch user1 0.023280
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.188.02.36.39.2000.SC.MGU.00.16-75.srf.rmse30
+ ch user1 0.023367
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.239.23.19.52.2000.SC.MGU.00.16-60.srf.rmse30
+ ch user1 0.024660
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.063.14.10.40.5000.SC.MGU.00.16-80.srf.rmse30
+ ch user1 0.025341
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2013.207.07.15.36.6000.SC.MGU.00.20-70.srf.rmse30
+ ch user1 0.025460
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2013.289.10.37.50.5000.SC.MGU.00.20-65.srf.rmse30
+ ch user1 0.025607
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.177.05.37.56.5000.SC.MGU.00.20-55.srf.rmse30
+ ch user1 0.026089
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.135.18.43.59.4000.SC.MGU.00.16-65.srf.rmse30
+ ch user1 0.026332
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2013.103.22.58.32.5000.SC.MGU.00.16-65.srf.rmse30
+ ch user1 0.026654
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.109.01.10.57.8000.SC.MGU.00.16-50.srf.rmse30
+ ch user1 0.029204
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2013.188.18.42.06.7000.SC.MGU.00.24-65.srf.rmse30
+ ch user1 0.029722
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.183.06.12.13.1000.SC.MGU.00.16-90.srf.rmse30
+ ch user1 0.030376
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.170.10.26.06.5000.SC.MGU.00.16-55.srf.rmse30
+ ch user1 0.031390
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.173.22.26.01.6000.SC.MGU.00.20-60.srf.rmse30
+ ch user1 0.032144
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.308.15.52.02.3000.SC.MGU.00.20-80.srf.rmse30
+ ch user1 0.032389
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.091.13.36.20.7000.SC.MGU.00.20-45.srf.rmse30
+ ch user1 0.032727
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.207.11.27.52.0000.SC.MGU.00.20-65.srf.rmse30
+ ch user1 0.033065
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.112.23.05.19.7000.SC.MGU.00.20-65.srf.rmse30
+ ch user1 0.033386
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.140.22.56.43.4000.SC.MGU.00.20-65.srf.rmse30
+ ch user1 0.035192
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.121.06.45.28.5000.SC.MGU.00.16-50.srf.rmse30
+ ch user1 0.035810
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.093.14.16.41.3000.SC.MGU.00.16-70.srf.rmse30
+ ch user1 0.036042
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.162.12.51.15.6000.SC.MGU.00.16-90.srf.rmse30
+ ch user1 0.036724
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.149.07.08.08.0000.SC.MGU.00.16-50.srf.rmse30
+ ch user1 0.036792
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.147.17.22.57.6000.SC.MGU.00.12-80.srf.rmse30
+ ch user1 0.037631
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.150.07.08.00.0000.SC.MGU.00.24-50.srf.rmse30
+ ch user1 0.037652
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.049.09.40.15.8000.SC.MGU.00.16-90.srf.rmse30
+ ch user1 0.038001
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.086.03.57.47.7000.SC.MGU.00.16-55.srf.rmse30
+ ch user1 0.038159
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.202.15.04.20.0000.SC.MGU.00.12-55.srf.rmse30
+ ch user1 0.038274
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.185.15.07.07.9000.SC.MGU.00.12-65.srf.rmse30
+ ch user1 0.038967
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.123.14.12.04.4000.SC.MGU.00.16-70.srf.rmse30
+ ch user1 0.039144
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.231.04.04.02.8000.SC.MGU.00.12-50.srf.rmse30
+ ch user1 0.039320
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2013.245.04.37.10.8000.SC.MGU.00.20-75.srf.rmse30
+ ch user1 0.039525
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.106.18.14.53.6000.SC.MGU.00.20-50.srf.rmse30
+ ch user1 0.039998
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.141.02.11.49.0000.SC.MGU.00.16-65.srf.rmse30
+ ch user1 0.040664
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.064.10.05.26.8000.SC.MGU.00.20-75.srf.rmse30
+ ch user1 0.041107
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.009.04.15.08.7000.SC.MGU.00.20-65.srf.rmse30
+ ch user1 0.041690
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.223.18.45.16.1000.SC.MGU.00.20-70.srf.rmse30
+ ch user1 0.041759
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.245.11.03.12.6000.SC.MGU.00.16-75.srf.rmse30
+ ch user1 0.042445
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.109.13.34.54.8000.SC.MGU.00.16-70.srf.rmse30
+ ch user1 0.042495
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.081.22.21.04.1000.SC.MGU.00.20-60.srf.rmse30
+ ch user1 0.042772
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.185.03.57.19.0000.SC.MGU.00.16-70.srf.rmse30
+ ch user1 0.043105
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.167.06.26.39.2000.SC.MGU.00.12-70.srf.rmse30
+ ch user1 0.043475
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.197.20.07.00.9000.SC.MGU.00.16-70.srf.rmse30
+ ch user1 0.043809
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.201.19.24.45.4000.SC.MGU.00.12-95.srf.rmse30
+ ch user1 0.044752
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.258.19.40.43.1000.SC.MGU.00.20-70.srf.rmse30
+ ch user1 0.045415
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.281.03.33.20.7000.SC.MGU.00.20-75.srf.rmse30
+ ch user1 0.046252
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.140.19.49.25.2000.SC.MGU.00.16-65.srf.rmse30
+ ch user1 0.046254
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.094.11.48.09.0000.SC.MGU.00.16-45.srf.rmse30
+ ch user1 0.046287
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.246.23.04.27.9000.SC.MGU.00.20-70.srf.rmse30
+ ch user1 0.046347
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2013.104.01.39.13.6000.SC.MGU.00.16-50.srf.rmse30
+ ch user1 0.046435
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.107.23.21.30.0000.SC.MGU.00.24-95.srf.rmse30
+ ch user1 0.046883
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.110.00.22.55.1000.SC.MGU.00.16-60.srf.rmse30
+ ch user1 0.046955
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.045.08.27.43.0000.SC.MGU.00.24-65.srf.rmse30
+ ch user1 0.047356
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.038.20.00.38.9000.SC.MGU.00.16-50.srf.rmse30
+ ch user1 0.047904
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.347.01.21.38.3000.SC.MGU.00.20-60.srf.rmse30
+ ch user1 0.048407
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.253.10.34.10.8000.SC.MGU.00.20-80.srf.rmse30
+ ch user1 0.048583
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.353.02.19.31.4000.SC.MGU.00.12-75.srf.rmse30
+ ch user1 0.048649
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.221.11.06.55.3000.SC.MGU.00.16-65.srf.rmse30
+ ch user1 0.048817
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.066.00.17.08.5000.SC.MGU.00.20-70.srf.rmse30
+ ch user1 0.049455
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.212.23.44.34.6000.SC.MGU.00.12-65.srf.rmse30
+ ch user1 0.049590
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.224.18.56.40.1000.SC.MGU.00.20-65.srf.rmse30
+ ch user1 0.049794
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.246.01.15.01.8000.SC.MGU.00.20-65.srf.rmse30
+ ch user1 0.050151
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.268.17.59.15.0000.SC.MGU.00.16-70.srf.rmse30
+ ch user1 0.050200
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.175.03.16.58.5000.SC.MGU.00.12-60.srf.rmse30
+ ch user1 0.050383
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.298.03.32.08.6000.SC.MGU.00.24-70.srf.rmse30
+ ch user1 0.050736
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2013.185.17.22.52.5000.SC.MGU.00.16-65.srf.rmse30
+ ch user1 0.050896
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2013.285.13.19.19.3000.SC.MGU.00.20-75.srf.rmse30
+ ch user1 0.050935
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.108.04.21.06.0000.SC.MGU.00.12-65.srf.rmse30
+ ch user1 0.050952
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2013.184.03.48.03.0000.SC.MGU.00.28-65.srf.rmse30
+ ch user1 0.051081
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2013.106.10.07.13.6000.SC.MGU.00.12-65.srf.rmse30
+ ch user1 0.051821
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.101.07.14.16.1000.SC.MGU.00.16-40.srf.rmse30
+ ch user1 0.052890
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.337.01.02.48.7000.SC.MGU.00.12-65.srf.rmse30
+ ch user1 0.053475
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.101.14.40.36.2000.SC.MGU.00.20-65.srf.rmse30
+ ch user1 0.054052
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.004.04.25.03.6000.SC.MGU.00.20-55.srf.rmse30
+ ch user1 0.054125
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.138.04.28.07.6000.SC.MGU.00.16-65.srf.rmse30
+ ch user1 0.054924
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.150.03.43.05.5000.SC.MGU.00.20-80.srf.rmse30
+ ch user1 0.055076
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.222.23.26.47.8000.SC.MGU.00.20-65.srf.rmse30
+ ch user1 0.055397
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.092.04.19.43.0000.SC.MGU.00.16-60.srf.rmse30
+ ch user1 0.055687
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.130.14.24.11.0000.SC.MGU.00.16-60.srf.rmse30
+ ch user1 0.055771
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.210.02.43.59.0000.SC.MGU.00.16-40.srf.rmse30
+ ch user1 0.055856
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.172.02.12.13.9000.SC.MGU.00.16-60.srf.rmse30
+ ch user1 0.056181
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.313.16.11.01.1000.SC.MGU.00.16-75.srf.rmse30
+ ch user1 0.056276
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.249.13.17.16.1000.SC.MGU.00.24-55.srf.rmse30
+ ch user1 0.056375
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.216.07.21.33.5000.SC.MGU.00.24-55.srf.rmse30
+ ch user1 0.056800
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.120.10.51.31.9000.SC.MGU.00.16-80.srf.rmse30
+ ch user1 0.056852
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.216.22.08.08.6000.SC.MGU.00.12-100.srf.rmse30
+ ch user1 0.056917
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.153.18.59.17.3000.SC.MGU.00.16-55.srf.rmse30
+ ch user1 0.057319
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.212.14.43.31.3000.SC.MGU.00.12-65.srf.rmse30
+ ch user1 0.057406
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.033.00.46.08.8000.SC.MGU.00.12-60.srf.rmse30
+ ch user1 0.057654
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.103.12.44.01.2000.SC.MGU.00.16-50.srf.rmse30
+ ch user1 0.057729
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.138.17.11.46.7000.SC.MGU.00.20-85.srf.rmse30
+ ch user1 0.057744
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.317.20.50.47.6000.SC.MGU.00.12-85.srf.rmse30
+ ch user1 0.057897
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.232.18.27.56.5000.SC.MGU.00.12-75.srf.rmse30
+ ch user1 0.058113
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.032.22.35.05.9000.SC.MGU.00.16-55.srf.rmse30
+ ch user1 0.058978
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.169.03.50.34.0000.SC.MGU.00.24-80.srf.rmse30
+ ch user1 0.059037
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.160.23.31.57.3000.SC.MGU.00.12-55.srf.rmse30
+ ch user1 0.059354
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.188.06.57.29.1000.SC.MGU.00.20-75.srf.rmse30
+ ch user1 0.059861
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.139.14.03.32.5000.SC.MGU.00.24-50.srf.rmse30
+ ch user1 0.059975
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.184.03.02.26.3000.SC.MGU.00.16-65.srf.rmse30
+ ch user1 0.060057
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2012.074.21.19.34.0000.SC.MGU.00.20-80.srf.rmse30
+ ch user1 0.060118
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.341.01.28.52.2000.SC.MGU.00.16-75.srf.rmse30
+ ch user1 0.060120
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.222.04.19.32.8000.SC.MGU.00.24-90.srf.rmse30
+ ch user1 0.060159
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.131.12.43.37.5000.SC.MGU.00.20-65.srf.rmse30
+ ch user1 0.060160
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.125.17.05.26.6000.SC.MGU.00.20-65.srf.rmse30
+ ch user1 0.060555
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.178.23.34.52.5000.SC.MGU.00.20-60.srf.rmse30
+ ch user1 0.060624
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2015.127.07.17.12.6000.SC.MGU.00.20-85.srf.rmse30
+ ch user1 0.060839
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.309.01.57.51.8000.SC.MGU.00.16-60.srf.rmse30
+ ch user1 0.061056
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2014.131.20.50.44.4000.SC.MGU.00.16-50.srf.rmse30
+ ch user1 0.061122
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.159.15.46.29.1000.SC.MGU.00.28-60.srf.rmse30
+ ch user1 0.061203
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2011.005.06.55.15.6000.SC.MGU.00.16-85.srf.rmse30
+ ch user1 0.061464
+wh
+q
+eof
+sac<<eof
+r Good.srf.l.2010.101.09.48.01.6000.SC.MGU.00.16-65.srf.rmse30
+ ch user1 0.061564
+wh
+q
+eof
