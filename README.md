@@ -211,7 +211,7 @@ PSDM成像，请附加引用：
 其中：   
 
 - SX_Deconv和GC_SRF源码编写的早期工作得到了刘启民，徐强，Lupei Zhu等学者的帮助；   
-- 接收函数基础以及QSEIS模型参数设置等方面得到了 LP Vinnik，Xiaohui Yuan 等学者的帮助；   
+- 接收函数基础以及QSEIS模型参数设置等方面得到了 LP Vinnik，Xiaohui Yuan 等学者的帮助,spmove.joe修改自Xiaohui Yuan教授程序；   
 - 该工作的雏形也曾在2019年地震学算法与程序培训班(大理)上得到过陈凌研究员，吴庆举研究员，姚华建教授的当面指导；   
 - QSEIS波形模拟程序来自 Rongjiang Wang 教授课题组;   
 - PSDM相关程序来自于陈凌研究员课题组;   
