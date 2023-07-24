@@ -131,5 +131,5 @@ saclst user1 gcarc baz f ./sac_tmp/*rmse30| sort -k2|awk '{print $4,NR}'|gmt psx
 
 # echo|gmt psxy -J -R -O >> $psfile
 cd $FIG_fold
-cp $psfile $psfile.bk.ps
+# cp $psfile $psfile.bk.ps
 gmt psconvert -A $psfile
