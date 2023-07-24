@@ -117,7 +117,7 @@
 
 **S1:**
 
-- 可在Makefile 中为cpp文件的编译命令添加 -std=c99 **【Ubuntu测试无需，其他平台根据需要使用】**
+- 可在Makefile 中为cpp文件的编译命令添加 -std=c99 **【Ubuntu测试无需，其他平台根据需要使用，最新Makefile中提供了这一选项】**
 
 **I2:**
 
