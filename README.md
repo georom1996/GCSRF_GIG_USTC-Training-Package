@@ -54,8 +54,21 @@
 - 即便如此，仍然建议在Anaconda/Miniconda下安装大部分依赖程序，为方便各位使用，该部分将尽可能给出一个能够满足本程序包完整运行的最小的依赖安装方案。
 - 设备中若已有conda+sac则大概率能完整运行。
 
+**安装 conda**
+- 安装包链接见
+    https://docs.conda.io/en/latest/miniconda.html
+- 例如，如果选择Miniconda3 Linux 64-bit平台，则参考如下命令安装
+    ```
+    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+    bash Miniconda3-latest-Linux-x86_64.sh
+    ```
+    安装过程中全程使用默认选项即可，安装结束后需要初始化一下环境变量使conda生效,以bash脚本配置为例，参考如下命令初始化：
+    ```
+    source ~/.bashrc
+    ```
+
 **conda 方案一：**
-1. 下载最新版本中根目录中提供的GCSRF.yml文件
+1. 下载最新版本中根目录中提供的GCSRF.yml文件，在程序包根目录中进行环境配置。
 2. 在conda中创建GCSRF环境并安装相应依赖：
     ```
     conda env create -f GCSRF.yml
@@ -67,7 +80,7 @@
     ```
 
 **conda 方案二：**
-1. 在自己常用的conda环境中安装如下依赖：
+1. 可在自己常用的conda环境中安装如下依赖：
     ```
     conda config --add channels conda-forge
     conda install obspy=1.4.0
