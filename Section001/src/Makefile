@@ -28,13 +28,13 @@ GC_SRF:
 	$(CCC) $(CFLAG) -o $@ $@.o sac_lpz.o
 	mv $@ ../bin/
 GC_SRF_par:
-	mpic++ $(CFLAG) -c sacio.c
-	mpic++ $(CFLAG) -g -o $@ $@.cpp $(SUBS)
+	mpic++ -c sacio.c
+	mpic++ -g -o $@ $@.cpp $(SUBS)
 	mv $@ ../bin/	
 GC_SRF_post:
-	mpic++ $(CFLAG) -c sacio.c
+	mpic++ -c sacio.c
 	mpic++ -g -c $@.cpp
-	mpic++ $(CFLAG) -o $@ $@.o sacio.o		
+	mpic++ -o $@ $@.o sacio.o		
 	mv $@ ../bin/
 spmove.joe: modules2
 	$(FFF) -c spmove.joe.f

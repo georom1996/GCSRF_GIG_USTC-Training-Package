@@ -2,7 +2,7 @@
 ----   Intially coded by Zhang Zhou @GIG on Jul., 7th, 2021   ----
 ----   Post Processing in GC_SRF strategy.  ----
 -------------------------------------------------------------------*/
-#include "omp.h"
+
 #include "sacio.h"
 #include <cstring>
 #include <fstream>
@@ -15,7 +15,6 @@
 #include <string.h>
 #include <string>
 #include <time.h>
-
 
 /*-------------------------------------------------- some CONST values
  * -----------------------------------*/
@@ -36,7 +35,7 @@ using namespace std;
 /*---------------------------------------------- MAIN PROGRAM
  * --------------------------------------------*/
 int main(int argc, char *argv[]) {
-  clock_t start, end; //����clock_t����
+  clock_t start, end; // clock_t
   int i, j, k, shift_index, count = 1, npts, line = 0, tmp_index;
   float *data, *sum, delta, Nth_root, shift_time[SAC_MAX], weight[SAC_MAX],
       tmp1, tmp2, peak;
@@ -89,7 +88,7 @@ int main(int argc, char *argv[]) {
       int zeropoint = floor(100 / delta);
       amp_0[ii][jj] = data[zeropoint];
 
-      if (abs(amp_0[ii][jj]) <= abs(min_amp)) {
+      if (fabs(amp_0[ii][jj]) <= fabs(min_amp)) {
         min_amp = amp_0[ii][jj];
         min_inci = incnum;
         min_name = sacname;
@@ -206,22 +205,22 @@ int main(int argc, char *argv[]) {
 }
 
 //-------------------------------------------------------------------------------------------------
-//�������ϵ��
+//
 float gama(float *A, float *B, int Length) {
 
   float sumA = 0.0, sumB = 0.0, aveA = 0.0, aveB = 0.0;
 
-  //���
+  //
   for (int i = 0; i < Length; i++) {
     sumA = sumA + A[i];
     sumB = sumB + B[i];
   }
 
-  //��ƽ��ֵ
+  //
   aveA = sumA / float(Length);
   aveB = sumB / float(Length);
 
-  //�������ϵ��
+  //
   double R1(0), R2(0), R3(0);
   for (int i = 0; i < Length; i++) {
     R1 += (A[i] - aveA) * (B[i] - aveB);

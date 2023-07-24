@@ -23,7 +23,6 @@ typedef float REAL;   /* general floating point type */
 #include <string>
 #include <time.h>
 
-
 #define SHC_EPSILON 1.0e-25
 #define SHC_PI 3.14159265358979323846
 #define SHC_RAD_TO_DEG (180.0 / SHC_PI)
