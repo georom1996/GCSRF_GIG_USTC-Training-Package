@@ -33,7 +33,6 @@
         - fdd.lst
         - readsac.m
         - Silent_FiltRMSE.m
-
     - figs/
     - tmp/   
 
@@ -54,8 +53,8 @@
 - 即便如此,仍然建议在Anaconda/Miniconda下安装大部分依赖程序,为方便各位使用,该部分将尽可能给出一个能够满足本程序包完整运行的最小的依赖安装方案.
 - 设备中若已有conda+sac则大概率能完整运行.
 
-**安装 conda 和 SAC**
-- conda安装包链接见[conda website](https://docs.conda.io/en/latest/miniconda.html)
+**1. 安装 conda 和 SAC**
+- **conda**安装包链接见[conda website](https://docs.conda.io/en/latest/miniconda.html)
     
 - 例如,如果选择Miniconda3 Linux 64-bit平台,则参考如下命令安装
     ```
@@ -68,7 +67,8 @@
     ```
     **SAC**的安装流程参考[SeismanBlog](https://seisman.github.io/SAC_Docs_zh/install/).
 
-**conda 方案一:**
+**2. 配置 conda 和 所需编译环境**
+- **conda 方案一:**
 1. 下载最新版本中根目录中提供的GCSRF.yml文件,在程序包根目录中进行环境配置.
 2. 在conda中创建GCSRF环境并安装相应依赖:
     ```
@@ -80,7 +80,7 @@
     sudo snap install taup
     ```
 
-**conda 方案二:**
+- **conda 方案二:**
 1. 可在自己常用的conda环境中安装如下依赖:
     ```
     conda config --add channels conda-forge
@@ -94,8 +94,9 @@
     sudo apt-get install default-jdk
     sudo snap install taup
     ```
-**编译工具方案:**
-- 除这些之外,还需检查gcc, gfortran, g++, mpich等编译器是否存在:
+- **编译环境:**
+**若Section001/src/中编译顺利,请跳过阅读**
+    除这些之外,还需检查gcc, gfortran, g++, mpich等编译器是否存在:
     ```
     g++ --version
     gcc --version
@@ -104,24 +105,30 @@
     ```
 
     若命令不存在则需根据需要安装:
-    **> Ubuntu或其他基于Debian的Linux发行版:**
-    打开终端并输入以下命令:
-    ```
-    sudo apt update
-    sudo apt install g++
-    ```
-    **> Fedora, CentOS, RHEL等基于RPM的Linux发行版:**
+    - **> Ubuntu或其他基于Debian的Linux发行版:**
+        打开终端并输入以下命令:
+        ```
+        sudo apt update
+        sudo apt install gcc
+        sudo apt install gfortran
+        sudo apt install mpich
+        ```
+    - **> Fedora, CentOS, RHEL等基于RPM的Linux发行版:**
 
-    打开终端并输入以下命令:
-    ```
-    sudo dnf install gcc-c++
-    ```
-    **> macOS:**
-    需安装Homebrew后使用brew命令安装:
-    ```
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-    brew install gcc
-    ```
+        打开终端并输入以下命令:
+        ```
+        sudo dnf install gcc
+        sudo dnf install gfortran
+        sudo dnf install mpich
+        ```
+    - **> macOS:**
+        需安装Homebrew后使用brew命令安装:
+        ```
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+        brew install gcc
+        brew install gfortran
+        brew install mpich
+        ```  
 
 
 ### 常见问题 & 解决方案 2023-07-23
