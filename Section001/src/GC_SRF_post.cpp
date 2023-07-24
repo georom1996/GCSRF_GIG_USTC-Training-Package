@@ -73,7 +73,7 @@ int main(int argc, char *argv[]) {
     int ii_minamp0 = 0, jj_minamp0 = 0;
     float min_amp = 100;
     int min_inci = 100;
-    cout << win_len << "    " << rank << "    " << comm_size << endl;
+    // cout << win_len << "    " << rank << "    " << comm_size << endl;
     for (incnum = 0; incnum <= 60; incnum = incnum + 4) {
       float energy_tmp = 0;
       int idx_count = 0;
