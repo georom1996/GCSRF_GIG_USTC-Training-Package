@@ -125,9 +125,7 @@ cd ../
 结果放置于example01_kumar/figs文件夹中,图件如下：   
 ![Example Kumar](./example01_kumar/figs/corrected-XR.ST09.1998.197.121411-SRF.l.jpg)
 
-kumar et al., 2006 Figure 4 原图如下：  
-
-![kumar et al., 2006 Figure 4](https://agupubs.onlinelibrary.wiley.com/cms/asset/4fd142fe-7f99-4c30-8e37-7928950b618c/jgrb14644-fig-0004.png)
+kumar et al., 2006 Figure 4 原图见 [kumar et al., 2006](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2005JB003930)
 ### 案例测试02： 基于脉冲反褶积的GC_SRF计算流程
 - 进入example02_gcsrf文件夹,运行Shell测试脚本GC_SRF_example_syn.sh
 该脚本中使用GC_SRF和GC_SRF_post程序提供了基于GC_SRF开展S波接收函数计算的参考流程.
