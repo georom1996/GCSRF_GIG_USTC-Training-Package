@@ -6,30 +6,9 @@ make clean
 make all
 cd ../
 ```   
-- 进入example01_kumar文件夹,执行复现Kumar文章的案例
-```bash
-cd ./example01_kumar
-bash ./SX_Deconv_example_kumar.sh
-cd ../
-```
-结果放置于example01_kumar/figs文件夹中,图件如下：   
-![Example Kumar](./example01_kumar/figs/corrected-XR.ST09.1998.197.121411-SRF.l.jpg)
 
-- 进入example02_gcsrf文件夹,执行GC_SRF计算S波接收函数的案例
-```bash
-cd ./example02_gcsrf
-bash ./GC_SRF_example_syn.sh
-```   
-然后执行绘图命令
-```bash
-python ./GC_SRF_plot.py
-```   
-结果图件放置于example02_gcsrf/figs文件夹中,图件如下：   
-![GC_SRF 001](./example02_gcsrf/figs/syn_SM_d75_001.jpg)   
-![GC_SRF 002](./example02_gcsrf/figs/syn_SM_d75_002.jpg)
-
-## 文件说明
-- 在流程操作编译完成之后,在bin文件夹中将出现如下命令：
+### 可执行程序说明
+- 在流程操作编译完成之后,在bin文件夹中将出现如下可执行程序：
     - 1. **SX_Deconv**
             该程序为脉冲反褶积计算的独立计算程序,使用方法为：
             ```bash
@@ -136,6 +115,34 @@ python ./GC_SRF_plot.py
             ```
     - 6. sacsnr 和 sacStack
         来自[SACTOOLS](https://github.com/msthorne/SACTOOLS/tree/master).
+### 案例测试01： 复现kumar et al., 2006 Figure 4b
+- 进入example01_kumar文件夹,运行Shell测试脚本SX_Deconv_example_kumar.sh
+```bash
+cd ./example01_kumar
+bash ./SX_Deconv_example_kumar.sh
+cd ../
+```
+结果放置于example01_kumar/figs文件夹中,图件如下：   
+![Example Kumar](./example01_kumar/figs/corrected-XR.ST09.1998.197.121411-SRF.l.jpg)
+
+kumar et al., 2006 Figure 4 原图如下：  
+
+![kumar et al., 2006 Figure 4](https://agupubs.onlinelibrary.wiley.com/cms/asset/4fd142fe-7f99-4c30-8e37-7928950b618c/jgrb14644-fig-0004.png)
+### 案例测试02： 基于脉冲反褶积的GC_SRF计算流程
+- 进入example02_gcsrf文件夹,运行Shell测试脚本GC_SRF_example_syn.sh
+该脚本中使用GC_SRF和GC_SRF_post程序提供了基于GC_SRF开展S波接收函数计算的参考流程.
+```bash
+cd ./example02_gcsrf
+bash ./GC_SRF_example_syn.sh
+```   
+- 然后使用python执行绘图脚本
+```bash
+python ./GC_SRF_plot.py
+```   
+结果图件放置于example02_gcsrf/figs文件夹中,图件如下：   
+![GC_SRF 001](./example02_gcsrf/figs/syn_SM_d75_001.jpg)   
+![GC_SRF 002](./example02_gcsrf/figs/syn_SM_d75_002.jpg)
+
 
 
 ## 必要工具和库
