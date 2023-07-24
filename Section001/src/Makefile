@@ -3,6 +3,8 @@ CCC=g++
 FFF=gfortran
 F90=gfortran
 SUBS=sac_lpz.o
+# CFLAG=-std=c99
+CFLAG=
 SUMV=subs.o saclib.o
 all:  modules1 modules2 SX_Deconv sacStack GC_SRF GC_SRF_par GC_SRF_post spmove.joe sacsnr
 #Compile modules.
@@ -12,27 +14,27 @@ modules2 : subs.f saclib.f
 	$(FFF) -c subs.f saclib.f
 SX_Deconv: 
 	$(CCC) -c sac_lpz.c 
-	$(CCC) -g -c $@.cpp 
-	$(CCC) -o $@ $@.o sac_lpz.o
+	$(CCC) $(CFLAG) -g -c $@.cpp 
+	$(CCC) $(CFLAG) -o $@ $@.o sac_lpz.o
 	mv $@ ../bin/
 sacStack:
-	gcc  -c sac_lpz.c sac_lpz.c fft.c Complex.c
+	gcc -c sac_lpz.c sac_lpz.c fft.c Complex.c
 	gcc -g -c $@.c
-	gcc  -o $@ $@.o sac_lpz.o fft.o Complex.o -lm
+	gcc -o $@ $@.o sac_lpz.o fft.o Complex.o -lm
 	mv $@ ../bin/
 GC_SRF: 
 	$(CCC) -c sac_lpz.c
-	$(CCC) -g -c $@.cpp
-	$(CCC) -o $@ $@.o sac_lpz.o
+	$(CCC) $(CFLAG) -g -c $@.cpp
+	$(CCC) $(CFLAG) -o $@ $@.o sac_lpz.o
 	mv $@ ../bin/
 GC_SRF_par:
 	mpic++ -c sacio.c
-	mpic++ -g -o $@ $@.cpp $(SUBS)
+	mpic++ $(CFLAG) -g -o $@ $@.cpp $(SUBS)
 	mv $@ ../bin/	
 GC_SRF_post:
 	mpic++ -c sacio.c
-	mpic++ -g -c $@.cpp
-	mpic++ -o $@ $@.o sacio.o		
+	mpic++ $(CFLAG) -g -c $@.cpp
+	mpic++ $(CFLAG) -o $@ $@.o sacio.o		
 	mv $@ ../bin/
 spmove.joe: modules2
 	$(FFF) -c spmove.joe.f
