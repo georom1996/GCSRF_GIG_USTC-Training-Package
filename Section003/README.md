@@ -1,4 +1,10 @@
-## 操作流程
+## Section003 多台S波接收函数的PSDM偏移成像
+
+## 偏移成像的操作流程
+### 脚本说明
+**功能:**
+以陈凌老师课题组PSDM程序包为基础构建的python Runner,在该Runner脚本中设置好相应参数和变量后可用于实际数据的偏移成像工作.
+
 - 在Section003文件夹中，linux执行命令   
 ```bash
 python example001_pyPSDM_runner_CDMOD.py
