@@ -221,7 +221,7 @@ c
 	   i2=i1+1
 	   if (i2.gt.maxtable) then
 	      write(*,911) treal
-911	      format('  warning: maximum Pds delay time: ',f10.3,'s')
+911	      format('  warning: maximum Sdp delay time: ',f10.3,'s')
 	      maxy(itr)=j-1
 	      goto 21
 	   endif
