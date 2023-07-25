@@ -240,7 +240,7 @@ def GCSRF_plotSyn(SRF_fd, fd_lst, fd_begin, ta, tb, tc, td, te, oname):
             tss_lg.append("SumAll")
             # print(tss_lg)
             tss_ax.legend(tss_lg)
-            fig.savefig("./figs/"+fdname+'_002.eps', dpi=600, format='eps')
+            # fig.savefig("./figs/"+fdname+'_002.pdf', dpi=600, format='eps')
             fig.savefig("./figs/"+fdname+'_002.jpg')
 #                 fig.tight_layout()
 #                 fig.show()
