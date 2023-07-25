@@ -96,7 +96,7 @@ cd ../
             注:该输入SAC格式数据文件获取方式为：
             1. 将GC_SRF/GC_SRF_par输出波形(nsl.sac结尾文件)截取-100s到100s(.100.cut);
             2. 翻转时间轴(rv);
-            3. moveout矫正(.rm);
+            3. moveout校正(.rm);
             4. 翻转转时间轴(rv).
             具体操作脚本可参考Section001/example02_gcsrf/GC_SRF_example_syn.sh
         ```
