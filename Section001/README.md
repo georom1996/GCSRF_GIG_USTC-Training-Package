@@ -62,11 +62,11 @@ cd ../
         ```
         默认输出：
             ("rf-%02.f-%03.f.sl.sac", incnum, win_len) : 未归一化的L分量反褶积波形(SRF)
-            ("rf-%02.f-%03.f.sl.sac", incnum, win_len) : 未归一化的Q分量反褶积波形
-            ("rf-%02.f-%03.f.sl.sac", incnum, win_len) : 未归一化的T分量反褶积波形
+            ("rf-%02.f-%03.f.sq.sac", incnum, win_len) : 未归一化的Q分量反褶积波形
+            ("rf-%02.f-%03.f.st.sac", incnum, win_len) : 未归一化的T分量反褶积波形
             ("rf-%02.f-%03.f.nsl.sac", incnum, win_len) : 振幅归一化的L分量反褶积波形(SRF)
-            ("rf-%02.f-%03.f.nsl.sac", incnum, win_len) : 振幅归一化的Q分量反褶积波形
-            ("rf-%02.f-%03.f.nsl.sac", incnum, win_len) : 振幅归一化的T分量反褶积波形
+            ("rf-%02.f-%03.f.nsq.sac", incnum, win_len) : 振幅归一化的Q分量反褶积波形
+            ("rf-%02.f-%03.f.nst.sac", incnum, win_len) : 振幅归一化的T分量反褶积波形
         ```
 
         ```
