@@ -488,14 +488,14 @@ The implementation of the related functions of the existing GC_SRF process relie
 
 Among them:   
 
-- The early work of SX_Deconv and GC_SRF source code writing was helped by scholars such as Liu Qimin, Xu Qiang, Lupei Zhu;   
+- The early work of SX_Deconv and GC_SRF source code writing was helped by scholars such as Qimin Liu, Xu Qiang, Lupei Zhu;   
 - The receiver function foundation and QSEIS model parameter setting were helped by scholars such as LP Vinnik, Xiaohui Yuan, and spmove.joe was modified from Professor Xiaohui Yuan's program;   
-- The prototype of this work was also guided face-to-face by Researcher Chen Ling, Researcher Wu Qingju, and Professor Yao Huajian at the 2019 Seismological Algorithm and Programming Training (Dali);   
+- The prototype of this work was also guided face-to-face by Professor Chen Ling, Professor Wu Qingju, and Professor Yao Huajian at the 2019 Seismological Algorithm and Programming Training (Dali, Yunnan, China);   
 - QSEIS waveform simulation program comes from Professor Rongjiang Wang's research group;   
-- PSDM related programs come from Researcher Chen Ling's research group;   
+- PSDM related programs come from Professor Chen Ling's research group;   
 - sacsnr, sacStack, sacio, etc. all come from Professor Lupei Zhu's research group; 
 - Program organization was helped by GIG Geophysics Lab - 724A Hu Zhongfa, Zhu Sheng, Huang Runqing, Luo Heng;
-- The program issues and solutions section was helped by Xiao Zhuo, Han Rubing, Su Wenjunliu, Liang Xuran, Zeng Yandi, Yan Xiaodong, Kou Huadong and others.
+- The program issues and solutions section was helped by Professor Xiao Zhuo, Professor Han Rubing, Doctor Su Wenjunliu, Doctor Liang Xuran, Zeng Yandi, Yan Xiaodong, Kou Huadong and others.
 
 Thanks to all of them.
 
